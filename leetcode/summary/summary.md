@@ -11,14 +11,15 @@
 | 155 | Min Stack | Stack / Design | Medium | [Python](../problems/Stack/0155-min-stack.md) |
 | 394 | Decode String | Stack / String | Medium | [Python](../problems/Stack/0394-decode-string.md) |
 | 560 | Subarray Sum Equals K | Hash Table / Prefix Sum | Medium | [Python](../problems/Hash%20Table/0560-subarray-sum-equals-k.md) |
+| 739 | Daily Temperatures | Stack / Monotonic Stack | Medium | [Python](../problems/Stack/0739-daily-temperatures.md) |
 
 ## Topic Progress
 
 | Topic | Count | Problems |
 |---|---:|---|
 | Hash Table | 4 | 1, 49, 128, 560 |
-| Stack | 3 | 20, 155, 394 |
-| Total | 7 | - |
+| Stack | 4 | 20, 155, 394, 739 |
+| Total | 8 | - |
 
 ## Patterns
 
@@ -29,6 +30,7 @@
 - Stack Matching: push opening states and validate each closing state against the latest unmatched item.
 - Auxiliary Stack: maintain extra state, such as the current minimum, alongside the main stack for O(1) queries.
 - Nested State Stack: save the repeat count and previous string when entering a bracketed scope, then rebuild on close.
+- Monotonic Stack: keep candidate indexes in order so each item is pushed and popped at most once.
 
 ## Current Focus
 
