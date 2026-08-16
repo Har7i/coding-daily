@@ -5,6 +5,7 @@
 | # | Problem | Topic | Difficulty | Solution |
 |---|---|---|---|---|
 | 1 | Two Sum | Hash Table | Easy | [Python](../problems/Hash%20Table/0001-two-sum.md) |
+| 11 | Container With Most Water | Two Pointers | Medium | [Python](../problems/Two%20Pointers/0011-container-with-most-water.md) |
 | 20 | Valid Parentheses | Stack | Easy | [Python](../problems/Stack/0020-valid-parentheses.md) |
 | 49 | Group Anagrams | Hash Table / Sorting | Medium | [Python](../problems/Hash%20Table/0049-group-anagrams.md) |
 | 128 | Longest Consecutive Sequence | Hash Table / Set | Medium | [Python](../problems/Hash%20Table/0128-longest-consecutive-sequence.md) |
@@ -19,7 +20,8 @@
 |---|---:|---|
 | Hash Table | 4 | 1, 49, 128, 560 |
 | Stack | 4 | 20, 155, 394, 739 |
-| Total | 8 | - |
+| Two Pointers | 1 | 11 |
+| Total | 9 | - |
 
 ## Patterns
 
@@ -31,7 +33,8 @@
 - Auxiliary Stack: maintain extra state, such as the current minimum, alongside the main stack for O(1) queries.
 - Nested State Stack: save the repeat count and previous string when entering a bracketed scope, then rebuild on close.
 - Monotonic Stack: keep candidate indexes in order so each item is pushed and popped at most once.
+- Two Pointers: move both ends toward the middle to search candidate pairs without checking every combination.
 
 ## Current Focus
 
-LeetCode Top 100 Liked problems, currently covering Hash Table and Stack patterns.
+LeetCode Top 100 Liked problems, currently covering Hash Table, Stack, and Two Pointers patterns.
