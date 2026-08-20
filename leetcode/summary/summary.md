@@ -6,6 +6,7 @@
 |---|---|---|---|---|
 | 1 | Two Sum | Hash Table | Easy | [Python](../problems/Hash%20Table/0001-two-sum.md) |
 | 11 | Container With Most Water | Two Pointers | Medium | [Python](../problems/Two%20Pointers/0011-container-with-most-water.md) |
+| 15 | 3Sum | Two Pointers / Sorting | Medium | [Python](../problems/Two%20Pointers/0015-3sum.md) |
 | 20 | Valid Parentheses | Stack | Easy | [Python](../problems/Stack/0020-valid-parentheses.md) |
 | 49 | Group Anagrams | Hash Table / Sorting | Medium | [Python](../problems/Hash%20Table/0049-group-anagrams.md) |
 | 128 | Longest Consecutive Sequence | Hash Table / Set | Medium | [Python](../problems/Hash%20Table/0128-longest-consecutive-sequence.md) |
@@ -20,8 +21,8 @@
 |---|---:|---|
 | Hash Table | 4 | 1, 49, 128, 560 |
 | Stack | 4 | 20, 155, 394, 739 |
-| Two Pointers | 1 | 11 |
-| Total | 9 | - |
+| Two Pointers | 2 | 11, 15 |
+| Total | 10 | - |
 
 ## Patterns
 
@@ -34,6 +35,7 @@
 - Nested State Stack: save the repeat count and previous string when entering a bracketed scope, then rebuild on close.
 - Monotonic Stack: keep candidate indexes in order so each item is pushed and popped at most once.
 - Two Pointers: move both ends toward the middle to search candidate pairs without checking every combination.
+- Sort + Two Pointers: sort first, fix one value, then move left and right pointers while skipping duplicates.
 
 ## Current Focus
 
