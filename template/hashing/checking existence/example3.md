@@ -3,11 +3,11 @@ If a valid number x appears multiple times, you only need to include it in the a
 
 
 class solution:
-    def example3(arr):
+    def example3(self, arr):
         ans = []
         arr_set = set(arr)
         for num in arr_set:
-            if num - 1 not in arr_set and num + 1 not in arr_srt:
+            if num - 1 not in arr_set and num + 1 not in arr_set:
                 ans.append(num)
         return ans
         

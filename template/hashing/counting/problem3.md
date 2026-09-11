@@ -33,7 +33,7 @@ text consists of lower case English letters only.
 from collections import Counter
 
 class solution:
-    def problem3(text):
+    def problem3(self, text):
         count_text = Counter(text)
         count_target = Counter("balloon")
         ans = float("inf")

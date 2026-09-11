@@ -3,7 +3,7 @@ Example 1: Given an integer array nums, an array queries where queries[i] = [x, 
 For example, given nums = [1, 6, 3, 2, 7, 2], queries = [[0, 3], [2, 5], [2, 4]], and limit = 13, the answer is [true, false, true]. For each query, the subarray sums are [12, 14, 12].
 
 class solution:
-    def example1(nums, queries, limit):
+    def example1(self, nums, queries, limit):
         prefix = [nums[0]]
         ans = []
         for i in range(1, len(nums)):

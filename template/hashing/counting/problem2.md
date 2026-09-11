@@ -25,7 +25,7 @@ Constraints:
 from collections import Counter
 
 class solution:
-    def problem2(nums):
+    def problem2(self, nums):
         counts = Counter(nums)
         ans = -1
         for key in counts.keys():

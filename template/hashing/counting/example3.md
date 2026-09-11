@@ -5,6 +5,6 @@ For example, given s = "abacbc", return true, because all characters appear twic
 from collections import Counter
 
 class solution:
-    def exmaple3(s):
+    def exmaple3(self, s):
         count = Counter(s)
         return len(set(count.values())) == 1

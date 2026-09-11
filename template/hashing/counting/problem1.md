@@ -45,7 +45,7 @@ All matches[i] are unique.
 from collections import defaultdict
 
 class solution:
-    def problem1(matches):
+    def problem1(self, matches):
         lose_hash = defaultdict(int)
         for winner, loser in matches:
             lose_hash[winner] += 0

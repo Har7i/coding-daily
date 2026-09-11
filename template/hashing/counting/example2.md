@@ -5,7 +5,7 @@ For example, given nums = [[3,1,2,4,5],[1,2,3,4],[3,4,5,6]], return [3, 4]. 3 an
 from collections import defaultdict
 
 class solution:
-    def example2(nums):
+    def example2(self, nums):
         ans = []
         counts = defaultdict(int)
         for arr in nums:

@@ -30,7 +30,7 @@ nums[i] is either 0 or 1.
 from collections import defaultdict
 
 class solution:
-    def problem4(nums):
+    def problem4(self, nums):
         ans = curr = 0
         counts = defaultdict(int)
         counts[0] = - 1 

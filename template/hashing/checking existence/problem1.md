@@ -23,7 +23,7 @@ sentence consists of lowercase English letters.
 from collections import defaultdict
 
 class solution:
-    def problem1(sentence):
+    def problem1(self, sentence):
         hashtable = defaultdict(int)
         for ch in sentence:
             hashtable[ch] += 1

@@ -4,7 +4,7 @@ For example, given nums = [1, 1, 2, 1, 1], k = 3, the answer is 2. The subarrays
 from collections import defaultdict
 
 class solution:
-    def example5(nums, k):
+    def example5(self, nums, k):
         ans = curr = 0
         counts = defaultdict(int)
         counts[0] = 1

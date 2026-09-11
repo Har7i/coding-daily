@@ -4,7 +4,7 @@ Given an integer array nums and an integer k, find the number of subarrays whose
 from collections import defaultdict
 
 class solution:
-    def example4(nums, k):
+    def example4(self, nums, k):
         ans = curr = 0
         counts = defaultdict(int)
         counts[0] = 1

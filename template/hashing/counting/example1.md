@@ -4,7 +4,7 @@ For example, given s = "eceba" and k = 2, return 3. The longest substring with a
 from collections import defaultdict
 
 class solution:
-    def example1(s, k):
+    def example1(self, s, k):
         counts = defaultdict(int)
         left = ans = 0
         for right in range(len(s)):
